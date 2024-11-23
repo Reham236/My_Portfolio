@@ -1,0 +1,119 @@
+body{
+    background-color: burlywood;
+    /* background-image: url('WhatsApp Image 2024-10-21 at 5.46.25 PM.jpeg'); استبدل your-image.jpg بمسار الصورة */
+    background-size:  800px 500px cover; /* جعل الصورة تغطي الشاشة بالكامل */
+    background-position:  left top  ; /* تمركز الصورة */
+    background-repeat: no-repeat; /* منع تكرار الصورة */
+}
+.home{
+    text-align: center   ;
+    font-style: oblique;
+    font-size: 40px;
+   height: 500px;
+   /* display: inline; */
+   
+   /* transform: translate(500px, -30px); */
+    /* background-color:rgb(184, 147, 46); */
+    background-color: burlywood;
+    background-size:0px;
+   
+}
+img{
+    background-color: burlywood;
+}
+
+/* h1{
+    
+}
+
+p{
+    text-align: center ;
+    font-size: 40px;
+    font-style: oblique;
+} */
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav{
+ 
+    position: fixed; /* تثبيت العنصر */
+    top: 0; /* تحديد موقع العنصر عند أعلى الصفحة */
+    width: 100%; /* يمتد بعرض الصفحة */
+    background-color: #333; /* لون الخلفية */
+    color: white; /* لون النص */
+    padding: 10px 20px; /* مسافات داخلية */
+    z-index: 1000; /* لضمان ظهوره فوق العناصر الأخرى */
+}
+header nav ul {
+    /* list-style: none; */
+    /* padding: 0; */
+    
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around; /* توزيع العناصر بالتساوي */
+      
+}
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 40px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translate(0,300px);
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    /* max-width: 600px;
+    margin: 20px auto;
+    padding: 10px; */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+.projects a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects a:hover {
+    background-color: #eaf4fc;
+    border-color: #2196F3;
+}
+
+.projects p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
